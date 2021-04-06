@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/images_removebg_preview__1_"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#F4EFEF"
+        android:drawableStart="@drawable/ic_name"
+        android:ems="10"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#F4EFEF"
+        android:drawableStart="@drawable/ic_gender"
+        android:ems="10"
+        android:hint="@string/enter_your_gender"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#F4EFEF"
+        android:drawableStart="@drawable/ic_age"
+        android:ems="10"
+        android:hint="@string/enter_your_age"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#F4EFEF"
+        android:drawableStart="@drawable/ic_height"
+        android:ems="10"
+        android:hint="@string/enter_your_height_cm"
+        android:inputType="numberDecimal"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#F4EFEF"
+        android:drawableStart="@drawable/ic_weight"
+        android:ems="10"
+        android:hint="@string/enter_your_wieght_kg"
+        android:inputType="numberDecimal"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="#F4EFEF"
+        android:text="@string/calculate"
+        app:backgroundTint="#303F9F" />
+</LinearLayout>

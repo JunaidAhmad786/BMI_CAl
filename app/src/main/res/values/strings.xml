@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">my_application</string>
+    <string name="enter_something">Enter something</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_gender">Enter your gender</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="enter_your_height_cm">Enter your Height(cm)</string>
+    <string name="enter_your_wieght_kg">Enter your wieght(Kg)</string>
+    <string name="calculate">Calculate</string>
+    <string name="bmi">BMI</string>
+    <string name="go_back" translatable="false">Go back</string>
+    <string name="pic" translatable="false">TODO</string>
+    <string name="todo">TODO</string>
+
+</resources>
